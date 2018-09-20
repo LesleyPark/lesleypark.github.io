@@ -1,0 +1,12 @@
+:local(h5) {
+  padding: 5px;
+  margin: 0px;
+}
+
+:local(.col-sm) {
+  text-align: center;
+}
+
+:local(.resize) {
+  width: 20px;
+}
