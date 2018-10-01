@@ -3,3 +3,11 @@
   margin: 20px;
   padding: 10px;
 }
+
+:local(.headers) {
+  font-weight: bolder;
+}
+
+:local(.itals) {
+  font-style: italic;
+}
