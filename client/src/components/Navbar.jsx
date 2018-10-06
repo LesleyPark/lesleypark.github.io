@@ -12,6 +12,9 @@ class Navbar extends React.Component {
       <div className="container">
         <div className="row">
           <div class="col-sm">
+            <h5>Projects</h5>
+          </div>
+          <div class="col-sm">
             <h5>Résumé</h5>
           </div>
           <div class="col-sm">
