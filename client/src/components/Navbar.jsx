@@ -18,16 +18,15 @@ class Navbar extends React.Component {
             <h5>Résumé</h5>
           </div>
           <div class="col-sm">
-              <h5>Connect</h5>
+            <h5>Contact</h5>
+          </div>
+          <div class="col-sm">
               <a href="https://github.com/LesleyPark" target="_blank">
                 <img className={styles.resize} src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/gh.png" />&nbsp;
               </a>
               <a href="https://www.linkedin.com/in/lesleypark/" target="_blank">
                 <img className={styles.resize} src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/li.png" />
               </a>
-          </div>
-          <div class="col-sm">
-            <h5>Contact</h5>
           </div>
         </div>
       </div>
