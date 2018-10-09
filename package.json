@@ -27,6 +27,7 @@
     "nodemon": "^1.18.4",
     "path": "^0.12.7",
     "react": "^16.4.2",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.4.2",
     "style-loader": "^0.23.0"
   }
