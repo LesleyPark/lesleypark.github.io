@@ -4,11 +4,11 @@ import styles from '../stylesheets/Resume.css';
 
 class Resume extends React.Component {
   constructor() {
-    super ();
+    super();
     this.state = {};
   }
 
-  render () {
+  render() {
     return (
       <div className={styles.resume}>
         <ScrollAnimation animateIn='fadeIn' animateOnce='true'>

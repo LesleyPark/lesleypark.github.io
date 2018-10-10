@@ -15,6 +15,7 @@ h1 {
 .italics {
   font-family: 'Halant', serif;
   font-style: italic;
+  color: #676768;
 }
 
 hr {
