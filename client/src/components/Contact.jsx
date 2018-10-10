@@ -10,18 +10,18 @@ class Contact extends React.Component {
   render() {
     return (
       <div className={styles.contact}>
-        <form>
+        <form className="animated fadeIn">
           <label>Your name</label>
-          <input type="name" className="form-control"/>
+          <input type="name" className="form-control form-control-sm"/>
           <br />
           <label>Your email</label>
-          <input type="email" className="form-control"/>
+          <input type="email" className="form-control form-control-sm"/>
           <br />
           <label>Message</label>
-          <textarea className="form-control" rows="5"/>
+          <textarea className="form-control form-control-sm" rows="7"/>
           <br/>
           <div className="text-center mt-4">
-            <button className="btn btn-outline-secondary" type="submit">Submit</button>
+            <button className="btn btn-secondary" type="submit">SUBMIT</button>
           </div>
         </form>
       </div>

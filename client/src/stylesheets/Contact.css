@@ -3,3 +3,8 @@
   padding: 5px;
   margin: 5px;
 }
+
+:local(button) {
+  font-family: 'Julius Sans One', sans-serif;
+  opacity: 0.75;
+}
