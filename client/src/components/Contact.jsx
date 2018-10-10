@@ -18,8 +18,7 @@ class Contact extends React.Component {
           <input type="email" className="form-control form-control-sm"/>
           <br />
           <label>Message</label>
-          <textarea className="form-control form-control-sm" rows="7"/>
-          <br/>
+          <textarea className="form-control form-control-sm" rows="6"/>
           <div className="text-center mt-4">
             <button className="btn btn-secondary" type="submit">SUBMIT</button>
           </div>
