@@ -11,16 +11,16 @@ class Navbar extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div class="col-sm">
+          <div className="col-sm">
             <h5 onClick={this.props.handleClickProjects}>Projects</h5>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             <h5 onClick={this.props.handleClickResume}>Résumé</h5>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
             <h5 onClick={this.props.handleClickContact}>Contact</h5>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
               <a href="https://github.com/LesleyPark" target="_blank">
                 <img className={styles.resize} src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/gh.png" />&nbsp;
               </a>

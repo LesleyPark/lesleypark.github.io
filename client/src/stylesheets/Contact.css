@@ -1,6 +1,11 @@
 :local(.contact) {
   text-align: left;
-  padding: 10px 200px 10px 200px;
+  margin: 20px;
+  padding: 10px;
+}
+
+:local(input) {
+  color: black;
 }
 
 :local(button) {

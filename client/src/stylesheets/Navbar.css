@@ -1,6 +1,5 @@
 :local(h5) {
-  padding: 5px;
-  margin: 0px;
+  cursor: pointer;
 }
 
 :local(.col-sm) {
