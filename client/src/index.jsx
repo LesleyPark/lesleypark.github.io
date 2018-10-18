@@ -45,7 +45,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="title"><h1>L E S L E Y&nbsp;&nbsp;&nbsp;P A R K</h1>
+        <div className="title">
+        <h1>L E S L E Y&nbsp;&nbsp;&nbsp;P A R K</h1>
           <div className="italics">
             <h5>Software Engineer</h5>
           </div>

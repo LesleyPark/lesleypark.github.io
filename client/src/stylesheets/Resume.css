@@ -11,3 +11,10 @@
 :local(.itals) {
   font-style: italic;
 }
+:local(.bold) {
+  font-style: bolder;
+}
+
+:local(.align) {
+  align-content: right;
+}
