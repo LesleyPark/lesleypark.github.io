@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Projects extends React.Component {
   constructor() {
@@ -8,7 +9,11 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div>Hello from projects!
+      <div>
+        <ScrollAnimation animateIn='fadeIn' animateOnce='true'>
+          Airbnb Listing Replication
+          <img src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/airbnb.jpg"></img>
+        </ScrollAnimation>
       </div>
     )
   }
