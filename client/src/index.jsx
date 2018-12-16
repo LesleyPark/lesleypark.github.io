@@ -9,8 +9,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      showProjects: false,
-      showResume: true,
+      showProjects: true,
+      showResume: false,
       showContact: false
     };
     this.handleClickProjects = this.handleClickProjects.bind(this);
@@ -61,6 +61,18 @@ class App extends React.Component {
           {this.state.showResume ? <Resume /> : null}
           {this.state.showContact ? <Contact /> : null}
         </div>
+        {/* <div className="footer">
+          <div className="container">
+            <div className="col-sm">
+                <a href="https://github.com/LesleyPark" target="_blank">
+                  <img className="footerimg" src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/gh.png" />&nbsp;
+                </a>
+                <a href="https://www.linkedin.com/in/lesleypark/" target="_blank">
+                  <img className="footerimg" src="https://s3-us-west-1.amazonaws.com/lppersonalwebsite/li.png" />
+                </a>
+            </div>
+          </div>
+        </div> */}
       </div>
     );
   }
